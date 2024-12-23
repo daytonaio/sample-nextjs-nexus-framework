@@ -4,11 +4,10 @@ It can be used as a template to create sample repositories that can be added int
 
 Once you finish your sample and it gets merged, you can open a PR in the Daytona repo and submit the sample into the [index file](https://github.com/daytonaio/daytona/blob/main/hack/samples/index.json).
 
-# Sample <LANGUAGE/FRAMEWORK>
+# Sample <Typescript/NextJs>
 
-Sample description
+Nexus is a modern Next.js frontend framework powered by Daytona, designed for rapid development, scalability, and performance. It delivers responsive, user-friendly interfaces for dynamic web applications.
 
----
 
 ## 🚀 Getting Started  
 
@@ -17,14 +16,12 @@ Sample description
 1. **Install Daytona**: Follow the [Daytona installation guide](https://www.daytona.io/docs/installation/installation/).  
 2. **Create the Workspace**:  
    ```bash  
-   daytona create <SAMPLE_REPO_URL> 
+   daytona create https://github.com/daytonaio/sample-nextjs-nexus-framework.git
    ```  
 
-... MORE STEPS IF NEEDED ...
-
-4. **Start the Application**:  
+3. **Start the Application**:  
    ```bash  
-   command to start the app
+   npm run dev
    ```  
 
 ---
